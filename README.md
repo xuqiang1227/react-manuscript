@@ -15,3 +15,5 @@
   * [初识React](./books/chapter01/01.md)
 
   * [React 特性](./books/chapter01/02.md)
+
+  * [React Initial Project](./books/chapter01/03.md)
