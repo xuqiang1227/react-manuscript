@@ -16,6 +16,7 @@
 
 .App-title {
   font-size: 1.5em;
+  color: white;
 }
 
 .App-intro {
@@ -25,4 +26,20 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+.App-content {
+  display: flex;
+  align-items: stretch
+}
+
+.App-menu {
+  background-color: rgb(0, 21, 41);
+  height: calc(100vh - 150px);
+}
+
+.App-content-page {
+  padding: 10px;
+  display: flex;
 }
