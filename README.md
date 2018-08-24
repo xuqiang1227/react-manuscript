@@ -20,4 +20,4 @@
 
   * [生态组件](./books/chapter01/04.md)
 * state
-  * [Component state](./books/chapter01/01.md)
+  * [Component state](./books/chapter02/01.md)
