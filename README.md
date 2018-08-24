@@ -19,5 +19,9 @@
   * [React Initial Project](./books/chapter01/03.md)
 
   * [生态组件](./books/chapter01/04.md)
+
 * state
+
   * [Component state](./books/chapter02/01.md)
+
+  * [React-Redux](./books/)
