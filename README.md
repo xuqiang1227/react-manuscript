@@ -24,4 +24,4 @@
 
   * [Component state](./books/chapter02/01.md)
 
-  * [React-Redux](./books/)
+  * [React-Redux](./books/chapter02/02.md)
