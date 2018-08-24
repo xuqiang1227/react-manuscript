@@ -9,7 +9,7 @@ import Container from './router/Container';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {path: '/01'}
+    this.state = {path: '/02-01-03'}
   }
 
   render() {
@@ -27,11 +27,16 @@ class App extends Component {
                 mode="inline"
                 defaultOpenKeys={['sub1']}
                 defaultSelectedKeys={['01']}
-                onClick={({item}) => {
-                  window.history.go(item.props.path);
+                onClick={({key}) => {
+                  this.setState({path: `/${key}`});
                 }}>
                 <Menu.SubMenu title={'基础知识'} key='sub1'>
-                  <Menu.Item key="01" path={'/01'}>初识React</Menu.Item>
+                  <Menu.Item key="01-01-01">初识React</Menu.Item>
+                </Menu.SubMenu>
+                <Menu.SubMenu title={'state'} key='sub2'>
+                  <Menu.Item key="02-01-01" >Component state - Timer</Menu.Item>
+                  <Menu.Item key="02-01-02" >Component state - SetState</Menu.Item>
+                  <Menu.Item key="02-01-03" >Component state - SetStateCtrl</Menu.Item>
                 </Menu.SubMenu>
               </Menu>
             </div>
