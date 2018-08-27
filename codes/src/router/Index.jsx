@@ -5,7 +5,7 @@ import HelloWorld from '../components/chapter01/Session01';
 import Timer from '../components/chapter02/Timer';
 import SetState from '../components/chapter02/SetState';
 import SetStateCtrl from '../components/chapter02/SetStateCtrl';
-import Counter from '../components/chapter02/Counter';
+import Counter from '../containers/Counter';
 
 export default ({ path }) => {
     let MyRouter = <HelloWorld />;
@@ -22,7 +22,7 @@ export default ({ path }) => {
         case '/02-01-03':
             MyRouter = <SetStateCtrl />;
             break;
-        case '/02.01.04':
+        case '/02-01-04':
             MyRouter = <Counter />
             break;
         default:
