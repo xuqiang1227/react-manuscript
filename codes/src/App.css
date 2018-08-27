@@ -37,6 +37,7 @@
 .App-menu {
   background-color: rgb(0, 21, 41);
   height: calc(100vh - 150px);
+  text-align: left;
 }
 
 .App-content-page {

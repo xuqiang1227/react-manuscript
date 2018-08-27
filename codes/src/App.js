@@ -9,7 +9,7 @@ import Container from './router/Container';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {path: '/02-01-03'}
+    this.state = {path: '/01-01-01'}
   }
 
   render() {
@@ -37,6 +37,7 @@ class App extends Component {
                   <Menu.Item key="02-01-01" >Component state - Timer</Menu.Item>
                   <Menu.Item key="02-01-02" >Component state - SetState</Menu.Item>
                   <Menu.Item key="02-01-03" >Component state - SetStateCtrl</Menu.Item>
+                  <Menu.Item key="02-01-04" >Redux - Counter</Menu.Item>
                 </Menu.SubMenu>
               </Menu>
             </div>
