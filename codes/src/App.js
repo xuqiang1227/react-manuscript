@@ -2,15 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import 'antd/dist/antd.css';
 import './App.css';
-import { Menu } from 'antd';
 import Router from './router/Index';
 import Container from './router/Container';
+import Menu from './containers/Menu';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {path: '/01-01-01'}
-  }
 
   render() {
     return (
@@ -22,27 +18,10 @@ class App extends Component {
           </header>
           <div className="App-content">
             <div className="App-menu">
-              <Menu theme={'dark'}
-                style={{ width: 256 }}
-                mode="inline"
-                defaultOpenKeys={['sub1']}
-                defaultSelectedKeys={['01']}
-                onClick={({key}) => {
-                  this.setState({path: `/${key}`});
-                }}>
-                <Menu.SubMenu title={'基础知识'} key='sub1'>
-                  <Menu.Item key="01-01-01">初识React</Menu.Item>
-                </Menu.SubMenu>
-                <Menu.SubMenu title={'state'} key='sub2'>
-                  <Menu.Item key="02-01-01" >Component state - Timer</Menu.Item>
-                  <Menu.Item key="02-01-02" >Component state - SetState</Menu.Item>
-                  <Menu.Item key="02-01-03" >Component state - SetStateCtrl</Menu.Item>
-                  <Menu.Item key="02-01-04" >Redux - Counter</Menu.Item>
-                </Menu.SubMenu>
-              </Menu>
+              <Menu />
             </div>
             <div className="App-content-page">
-              <Router path={this.state.path}/>
+              <Router />
             </div>
           </div>
         </div>

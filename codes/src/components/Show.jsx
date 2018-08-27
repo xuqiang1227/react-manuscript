@@ -2,7 +2,8 @@ import React from 'react';
 import './Show.css';
 import CodeIndex from '../code/index';
 
-export default ({ path, children }) => {
+export default ({ menuReducer, children }) => {
+  const {path = '/01-01-01'} = menuReducer
   const code = require(`../code${path}`).default;
 
   return (
