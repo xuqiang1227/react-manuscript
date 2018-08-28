@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route } from 'react-router';
 import Show from '../containers/Show';
 import HelloWorld from '../components/chapter01/Session01';
 import Timer from '../components/chapter03/Timer';

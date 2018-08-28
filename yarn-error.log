@@ -1,0 +1,29 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-syntax-highlighter
+
+PATH: 
+  C:\Program Files\Java\jdk1.7.0_60\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2017.1\plugins\testng\lib;C:\WINDOWS\System32\OpenSSH\;C:\Users\XuQiang\AppData\Local\Programs\Python\Python37;C:\Program Files\TortoiseGit\bin;C:\Work\tools\Git\cmd;C:\Work\tools\Git\mingw64\bin;C:\Work\tools\Git\usr\bin;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\XuQiang\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\XuQiang\AppData\Local\Programs\Python\Python37\;C:\Users\XuQiang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.7.0_60\bin;C:\Work\tools\Git\usr\bin;C:\Work\tools\apache-maven-3.3.9\bin;;C:\Work\setup\Fiddler;C:\Users\XuQiang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\fengxj\AppData\Roaming\npm;C:\Users\XuQiang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\XuQiang\AppData\Local\Yarn\bin;C:\Users\XuQiang\AppData\Roaming\npm
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.19.35:443
+      at Object._errnoException (util.js:992:11)
+      at _exceptionWithHostPort (util.js:1014:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

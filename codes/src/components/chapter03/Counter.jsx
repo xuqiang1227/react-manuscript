@@ -1,5 +1,6 @@
 import React from 'react';
 import { addActioner, subActioner, resetActioner } from '../../actions/CounterAction';
+// import { Link } from 'react-router-dom';
 
 export default ({ counter = 0, dispatch }) => {
   const styles = {

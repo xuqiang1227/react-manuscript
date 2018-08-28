@@ -2,9 +2,12 @@ import React from 'react';
 import './Show.css';
 import CodeIndex from '../code/index';
 
-export default ({ menuReducer, children }) => {
-  const {path = '/01-01-01'} = menuReducer
-  const code = require(`../code${path}`).default;
+export default ({ location, children }) => {
+  let {pathname = '/01-01-01'} = location;
+  if(pathname === '/') {
+    pathname = '/01-01-01';
+  }
+  const code = require(`../code${pathname}`).default;
 
   return (
     <React.Fragment>
