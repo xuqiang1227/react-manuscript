@@ -22,28 +22,23 @@
 
 * 组件生命周期
   
-  * 装载
+  * [装载](./books/chapter02/01.md)
 
-    * constructor()
-    * static getDerivedStateFromProps()
-    * render()
-    * componentDidMount()
+  * [更新](./books/chapter02/02.md)
 
-  * 更新
+  * [卸载](./books/chapter02/03.md)
 
-    * static getDerivedStateFromProps()
-    * shouldComponentUpdate()
-    * render()
-    * getSnapshotBeforeUpdate()
-    * componentDidUpdate()
-  
-  * 卸载
-
-    * componentWillUnmount()
-
-  * 异常处理
+  * [异常处理](./books/chapter02/04.md)
     
-    * componentDidCatch()
+* state
+
+  * [Component state](./books/chapter03/01.md)
+
+  * [React-Redux](./books/chapter03/02.md)
+
+  * [React-Router](./books/chapter03/03.md)
+
+  * React-saga
 
 * 组件其他方法
 
@@ -60,14 +55,4 @@
   * 实例属性 
 
     * props
-    * state 
-
-* state
-
-  * [Component state](./books/chapter03/01.md)
-
-  * [React-Redux](./books/chapter03/02.md)
-
-  * [React-Router](./books/chapter03/03.md)
-
-  * React-saga
+    * state  
