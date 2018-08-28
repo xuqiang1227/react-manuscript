@@ -20,10 +20,54 @@
 
   * [生态组件](./books/chapter01/04.md)
 
+* 组件生命周期
+  
+  * 装载
+
+    * constructor()
+    * static getDerivedStateFromProps()
+    * render()
+    * componentDidMount()
+
+  * 更新
+
+    * static getDerivedStateFromProps()
+    * shouldComponentUpdate()
+    * render()
+    * getSnapshotBeforeUpdate()
+    * componentDidUpdate()
+  
+  * 卸载
+
+    * componentWillUnmount()
+
+  * 异常处理
+    
+    * componentDidCatch()
+
+* 组件其他方法
+
+  * 其他API
+
+    * setState()
+    * forceUpdate()
+
+  * 类属性
+
+    * defaultProps
+    * displayName
+
+  * 实例属性 
+
+    * props
+    * state 
+
 * state
 
-  * [Component state](./books/chapter02/01.md)
+  * [Component state](./books/chapter03/01.md)
 
-  * [React-Redux](./books/chapter02/02.md)
+  * [React-Redux](./books/chapter03/02.md)
 
-  * [React-Router](./books/chapter02/03.md)
+  * [React-Router](./books/chapter03/03.md)
+
+  * React-saga
