@@ -44,10 +44,7 @@
 
 * 组件其他方法
 
-  * 其他API
-
-    * setState()
-    * forceUpdate()
+  * [其他API](./books/chapter04/01.md)
 
   * 类属性
 
