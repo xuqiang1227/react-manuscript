@@ -46,10 +46,7 @@
 
   * [其他API](./books/chapter04/01.md)
 
-  * 类属性
-
-    * defaultProps
-    * displayName
+  * [类属性](./books/chapter04/02.md)
 
   * 实例属性 
 
