@@ -49,3 +49,32 @@
   * [类属性](./books/chapter04/02.md)
 
   * [实例属性](./books/chapter04/03.md) 
+
+* React 高级用法
+
+  * key
+
+  * 事件
+
+  * Refs
+
+  * Fragment
+
+  * context
+
+  * 高阶组件
+
+  * 类型查检
+
+  * stateless component
+
+* React 实例
+
+  * List
+
+  * Form
+
+  * Tooltip
+
+  * dangerouslySetInnerHTML
+ 
