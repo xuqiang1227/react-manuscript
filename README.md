@@ -48,7 +48,4 @@
 
   * [类属性](./books/chapter04/02.md)
 
-  * 实例属性 
-
-    * props
-    * state  
+  * [实例属性](./books/chapter04/03.md) 
