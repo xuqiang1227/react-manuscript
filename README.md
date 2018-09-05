@@ -20,9 +20,9 @@
 
   * [React Initial Project](./books/chapter01/03.md)
 
-  * 组件
+  * [Component和Dom](./books/chapter01/04.md)
 
-  * [生态组件](./books/chapter01/04.md)
+  * [生态组件](./books/chapter01/05.md)
 
 * 组件生命周期
   
@@ -77,6 +77,4 @@
   * Form
 
   * Tooltip
-
-  * dangerouslySetInnerHTML
  
