@@ -20,6 +20,8 @@
 
   * [React Initial Project](./books/chapter01/03.md)
 
+  * 组件
+
   * [生态组件](./books/chapter01/04.md)
 
 * 组件生命周期
@@ -54,7 +56,7 @@
 
   * [keys](./books/chapter05/01.md)
 
-  * 事件
+  * [事件](./books/chatpter05/02.md)
 
   * Refs
 

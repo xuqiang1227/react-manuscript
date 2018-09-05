@@ -6,6 +6,7 @@ import Timer from '../components/chapter03/Timer';
 import SetState from '../components/chapter03/SetState';
 import SetStateCtrl from '../components/chapter03/SetStateCtrl';
 import Counter from '../containers/Counter';
+import Others from './Others';
 
 export default () => {
     let MyRouter = <HelloWorld />;
@@ -18,6 +19,7 @@ export default () => {
                 <Route exact path="/03-01-02" component={SetState} />
                 <Route exact path="/03-01-03" component={SetStateCtrl} />
                 <Route exact path="/03-01-04" component={Counter} />
+                <Route exact path="*" component={Others} />
             </Show>
         </React.Fragment>
     )

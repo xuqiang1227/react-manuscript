@@ -22,6 +22,9 @@ export default ({ dispatch }) => {
         <Menu.Item key="03-01-03" >Component state - SetStateCtrl</Menu.Item>
         <Menu.Item key="03-01-04" >Redux - Counter</Menu.Item>
       </Menu.SubMenu>
+      <Menu.SubMenu title={'Synthetic Event'} key='sub5'>
+        <Menu.Item key="05-01-01" >Synthetic and Dom event</Menu.Item>
+      </Menu.SubMenu>
     </Menu>
   );
 }
