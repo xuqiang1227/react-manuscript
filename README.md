@@ -68,7 +68,6 @@
 
   * 类型查检
 
-  * stateless component
 
 * React 实例
 
