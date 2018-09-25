@@ -29,6 +29,7 @@ export default ({ dispatch }) => {
       <Menu.SubMenu title={'一些高级用法'} key='sub5'>
         <Menu.Item key="05-02-01" >Synthetic and Dom event</Menu.Item>
         <Menu.Item key="05-03-01" >Refs and Dom</Menu.Item>
+        <Menu.Item key="05-03-02" >Refs Callback</Menu.Item>
       </Menu.SubMenu>
     </Menu>
   );
