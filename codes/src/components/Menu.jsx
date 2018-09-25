@@ -31,6 +31,7 @@ export default ({ dispatch }) => {
         <Menu.Item key="05-03-01" >Refs and Dom</Menu.Item>
         <Menu.Item key="05-03-02" >Refs Callback</Menu.Item>
         <Menu.Item key="05-04-01" >Fragment</Menu.Item>
+        <Menu.Item key="05-05-01" >Context</Menu.Item>
       </Menu.SubMenu>
     </Menu>
   );

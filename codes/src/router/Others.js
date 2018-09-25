@@ -5,6 +5,7 @@ import ReactCatch from '../components/chapter02/ReactErrorCatch';
 import Refs from '../components/chapter05/Refs';
 import RefsCallBack from '../components/chapter05/RefsCallBack';
 import Fragment from '../components/chapter05/Fragment';
+import Context from '../components/chapter05/context/Index';
 
 export default ({ location }) => { //location history match
 
@@ -28,6 +29,9 @@ export default ({ location }) => { //location history match
       break;
     case '/05-04-01':
       router = <Fragment />;
+      break;
+    case '/05-05-01':
+      router = <Context />;
       break;
     default:
       router = null;
