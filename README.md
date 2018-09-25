@@ -56,9 +56,9 @@
 
   * [keys](./books/chapter05/01.md)
 
-  * [事件](./books/chatpter05/02.md)
+  * [事件](./books/chapter05/02.md)
 
-  * [Refs](./books/chatpter05/03.md)
+  * [Refs](./books/chapter05/03.md)
 
   * Fragment
 
