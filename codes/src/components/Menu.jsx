@@ -30,6 +30,7 @@ export default ({ dispatch }) => {
         <Menu.Item key="05-02-01" >Synthetic and Dom event</Menu.Item>
         <Menu.Item key="05-03-01" >Refs and Dom</Menu.Item>
         <Menu.Item key="05-03-02" >Refs Callback</Menu.Item>
+        <Menu.Item key="05-04-01" >Fragment</Menu.Item>
       </Menu.SubMenu>
     </Menu>
   );
