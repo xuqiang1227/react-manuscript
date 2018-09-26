@@ -62,9 +62,9 @@
 
   * [Fragment](./books/chapter05/04.md)
 
-  * [context](./books/chapter05/05.md)
+  * [Context](./books/chapter05/05.md)
 
-  * 高阶组件
+  * [高阶组件](./books/chapter05/06.md)
 
   * 类型查检
 
