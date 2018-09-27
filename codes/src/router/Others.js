@@ -7,6 +7,7 @@ import RefsCallBack from '../components/chapter05/RefsCallBack';
 import Fragment from '../components/chapter05/Fragment';
 import Context from '../components/chapter05/context/Index';
 import HOCMutiplex from '../components/chapter05/hoc/Multiplex';
+import EnchanceComponent from '../components/chapter05/hoc/EnhanceComponent';
 
 export default ({ location }) => { //location history match
 
@@ -36,6 +37,9 @@ export default ({ location }) => { //location history match
       break;
     case '/05-06-01':
       router = <HOCMutiplex />;
+      break;
+    case '/05-06-02':
+      router = <EnchanceComponent />;
       break;
     default:
       router = null;

@@ -33,6 +33,7 @@ export default ({ dispatch }) => {
         <Menu.Item key="05-04-01" >Fragment</Menu.Item>
         <Menu.Item key="05-05-01" >Context</Menu.Item>
         <Menu.Item key="05-06-01" >HOC Multiplex</Menu.Item>
+        <Menu.Item key="05-06-02" >HOC Inheritance Inversion</Menu.Item>
       </Menu.SubMenu>
     </Menu>
   );
