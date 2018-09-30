@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+}
+
+.list:nth-child(2n) {
+  background-color: #ececec
+}
+
+.list > div {
+  padding: 5px 8px;
+}
+
+.list > div:first-child > span {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list > div:nth-child(2) {
+  width: 156px;
+  text-align: left;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.copper {
+  background-color: rgb(186, 110, 64);
+}
