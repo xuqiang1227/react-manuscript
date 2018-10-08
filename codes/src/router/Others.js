@@ -42,7 +42,7 @@ export default ({ location }) => { //location history match
     case '/05-06-02':
       router = <EnchanceComponent />;
       break;
-    case '/06-01-03':
+    case '/06-01-04':
       router = <Tooltip />;
       break;
     default:

@@ -72,7 +72,9 @@
 
   * [List](./books/chapter06/01.md)
 
-  * Form
+  * [Form](./books/chapter06/02.md)
 
-  * [Tooltip](./books/chapter06/03.md)
+  * [Form高级](./books/chapter06/03.md)
+
+  * [Tooltip](./books/chapter06/04.md)
  
