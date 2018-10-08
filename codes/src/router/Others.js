@@ -8,6 +8,7 @@ import Fragment from '../components/chapter05/Fragment';
 import Context from '../components/chapter05/context/Index';
 import HOCMutiplex from '../components/chapter05/hoc/Multiplex';
 import EnchanceComponent from '../components/chapter05/hoc/EnhanceComponent';
+import Tooltip from '../components/chapter06/Tooltip';
 
 export default ({ location }) => { //location history match
 
@@ -40,6 +41,9 @@ export default ({ location }) => { //location history match
       break;
     case '/05-06-02':
       router = <EnchanceComponent />;
+      break;
+    case '/06-01-03':
+      router = <Tooltip />;
       break;
     default:
       router = null;
