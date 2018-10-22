@@ -1,14 +1,3 @@
-# Form
-
-在处理表单数据的时候，我们全部当做受控组件处理，将数据将放到`state`中。
-
-如果配合`redux`，可以直接交给`redux`来管理。
-
-禁止使用`refs`或者操作`dom`的方式获取表单数据。
-
-示例：
-
-```jsx
 import React from 'react';
 import './Form.css';
 
@@ -47,8 +36,3 @@ export default class extends React.PureComponent {
     );
   }
 }
-```
-
-[在线示例](https://codesandbox.io/s/r54l5jxmpq)
-
-##### [首页](../../README.md) | [上一节](./02.md) | [下一节](./03.md)

@@ -10,6 +10,7 @@ import HOCMutiplex from '../components/chapter05/hoc/Multiplex';
 import EnchanceComponent from '../components/chapter05/hoc/EnhanceComponent';
 import Tooltip from '../components/chapter06/Tooltip';
 import FormIndex from '../components/chapter06/form/Index';
+import FormBase from '../components/chapter06/form/Base';
 
 export default ({ location }) => { //location history match
 
@@ -44,6 +45,9 @@ export default ({ location }) => { //location history match
       router = <EnchanceComponent />;
       break;
     case '/06-01-02':
+      router = <FormBase />;
+      break;
+    case '/06-01-03':
       router = <FormIndex />;
       break;
     case '/06-01-04':
