@@ -38,6 +38,7 @@ export default ({ dispatch }) => {
       <Menu.SubMenu title={'React 实例'} key='sub6'>
         <Menu.Item key="06-01-01" >List</Menu.Item>
         <Menu.Item key="06-01-02" >Form</Menu.Item>
+        <Menu.Item key="06-01-03" >Form高级</Menu.Item>
         <Menu.Item key="06-01-04" >Tooltip</Menu.Item>
       </Menu.SubMenu>
     </Menu>
