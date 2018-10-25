@@ -33,6 +33,8 @@
   * [卸载](./books/chapter02/03.md)
 
   * [异常处理](./books/chapter02/04.md)
+  
+  * React.Component
     
 * state
 
@@ -67,6 +69,8 @@
   * [高阶组件](./books/chapter05/06.md)
 
   * [类型查检](./books/chapter05/07.md)
+  
+  * 代码分隔
 
 * React 实例
 
