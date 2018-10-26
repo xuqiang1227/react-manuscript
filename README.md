@@ -69,8 +69,6 @@
   * [高阶组件](./books/chapter05/06.md)
 
   * [类型查检](./books/chapter05/07.md)
-  
-  * 代码分隔
 
 * React 实例
 
