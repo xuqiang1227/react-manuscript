@@ -34,7 +34,7 @@
 
   * [异常处理](./books/chapter02/04.md)
   
-  * React.Component
+  * [React.Component](./books/chapter02/05.md)
     
 * state
 
