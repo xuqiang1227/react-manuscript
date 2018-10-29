@@ -1,0 +1,17 @@
+{
+  "7e9d1c88-023c-4c4e-971b-d2efee362417": {
+    "username": "React"
+  },
+  "cd67d1ed-ba0c-49d6-9187-e66c3549ad9e": {
+    "username": "Redux"
+  },
+  "361e3b78-f701-459b-9fd2-34d21a18564b": {
+    "username": "Router"
+  },
+  "297ee83e-4d15-4eb7-8106-e1e5e212933c": {
+    "username": "Saga"
+  },
+  "d4ca58aa-6aae-49a0-be66-5700fa64b15e": {
+    "username": "Thunk"
+  }
+}

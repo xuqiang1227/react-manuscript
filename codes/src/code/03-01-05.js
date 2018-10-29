@@ -1,40 +1,5 @@
-# React-saga
-
-`redux-saga` 是一个用于管理应用程序副作用（例如异步获取数据，访问浏览器缓存等）的javascript库，它的目标是让副作用管理更容易，执行更高效，测试更简单，处理故障更容易。
-
-`redux-saga`相当于一个放置在`action`与`reducer`中的垫片。
-
-之所以称之谓副作用呢，就是为了不让触发一个`action`时，立即执行`reducer`。也就是在`action`与`reducer`之间做一个事情，比如异步获取数据等。
-
-`redux-saga`使用了ES6中的`Generator`功能，避免了像`redux-thunk`的回调地狱。
-
-## 如何使用
-
-#### 安装
-
-```bash
-$ npm install --save redux-saga
-//或者
-$ yarn add redux-saga
-```
-
-### 示例
-
-假设有一个`UI`界面，是根据用户`ID`显示用户详情的。那么我们需要通过接口从数据库根据`userId`来获取数据。
-
-简单起见，我们在本地使用一个`json`文件来模拟数据库数据。
-
-```json
-{
-  "297ee83e-4d15-4eb7-8106-e1e5e212933c": {
-    "username": "Saga"
-  }
-}
-```
-
-创建UI Component
-
-```jsx
+export default `
+//ui.jsx
 import React from 'react';
 import { USER_FETCH_REQUESTED } from '../../../actions/User';
 
@@ -56,11 +21,8 @@ export default class extends React.Component {
     );
   }
 }
-```
 
-创建`saga`，这里的`saga`就相当于`action`.
-
-```js
+//saga.js
 import { call, put, takeEvery } from 'redux-saga/effects'
 import { fetchUserApi } from '../api/user';
 import { USER_FETCH_REQUESTED, USER_FETCH_SUCCEEDED, USER_FETCH_FAILED } from '../actions/User';
@@ -79,13 +41,8 @@ const userSaga = function* () {
 }
 
 export default userSaga;
-```
 
-关于`fetchUserApi`,我们会在后面的章节中描述。这里仅获取了`json`文件中与`userId`相对应的数据。
-
-把saga放入`store`中:
-
-```js
+//store.js
 import createSagaMiddleware from 'redux-saga';
 import Sagas from '../sagas/index';
 
@@ -95,11 +52,8 @@ const store = createStore(
   applyMiddleware(sagaMiddleware)
 )
 sagaMiddleware.run(Sagas)
-```
 
-最后再实现相就的reducer即可：
-
-```js
+//reducer.js
 import { USER_FETCH_SUCCEEDED } from '../actions/User';
 
 const initialState = { user: {} };
@@ -112,8 +66,4 @@ export default (state = initialState, action) => {
       return state;
   }
 }
-```
-
-[在线示例](https://codesandbox.io/s/34y07po6nm)
-
-##### [首页](../../README.md) | [上一节](./03.md)
+`;

@@ -8,6 +8,7 @@ import SetStateCtrl from '../components/chapter03/SetStateCtrl';
 import Counter from '../containers/Counter';
 import Others from './Others';
 import ListIndex from '../containers/List';
+import UserIndex from '../containers/User';
 
 export default () => {
     let MyRouter = <HelloWorld />;
@@ -20,6 +21,7 @@ export default () => {
                 <Route exact path="/03-01-02" component={SetState} />
                 <Route exact path="/03-01-03" component={SetStateCtrl} />
                 <Route exact path="/03-01-04" component={Counter} />
+                <Route exact path="/03-01-05" component={UserIndex} />
                 <Route exact path="/06-01-01" component={ListIndex} />
                 <Route exact path="*" component={Others} />
             </Show>
