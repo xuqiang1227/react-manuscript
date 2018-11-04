@@ -86,6 +86,6 @@
 
   * [ES7（ES2016）](./books/chapter07/02.md)
 
-  * [ES8（ES2017）](./books.chapter07/03.md)
+  * [ES8（ES2017）](./books/chapter07/03.md)
 
-  * [ES9（ES2018）](./books.chapter07/04.md)
+  * [ES9（ES2018）](./books/chapter07/04.md)
