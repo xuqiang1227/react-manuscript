@@ -82,7 +82,7 @@
  
 * [浅谈ES](./books/chapter07/00.md)
 
-  * [ES6（ES2015）](./books/chpater07/01.md)
+  * [ES6（ES2015）](./books/chapter07/01.md)
 
   * [ES7（ES2016）](./books/chapter07/02.md)
 
