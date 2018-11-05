@@ -1,0 +1,15 @@
+{
+  "name": "react-manuscript",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "gitbook --port 32100 serve"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "devDependencies": {}
+}
