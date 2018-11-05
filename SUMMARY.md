@@ -1,7 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* 基础知识
+
+* [基础知识](./books/chapter01/00.md)
 
   * [初识React](./books/chapter01/01.md)
 
@@ -13,7 +14,7 @@
 
   * [生态组件](./books/chapter01/05.md)
 
-* 组件生命周期
+* [组件生命周期](./books/chapter02/00.md)
   
   * [装载](./books/chapter02/01.md)
 
@@ -25,7 +26,7 @@
   
   * [React.Component](./books/chapter02/05.md)
     
-* state
+* [state](./books/chapter03/00.md)
 
   * [Component state](./books/chapter03/01.md)
 
@@ -35,7 +36,7 @@
 
   * [redux-saga](./books/chapter03/04.md)
 
-* 组件其他方法
+* [组件其他方法](./books/chapter04/00.md)
 
   * [其他API](./books/chapter04/01.md)
 
@@ -43,7 +44,7 @@
 
   * [实例属性](./books/chapter04/03.md) 
 
-* React 高级用法
+* [React 高级用法](./books/chapter05/00.md)
 
   * [keys](./books/chapter05/01.md)
 
@@ -59,7 +60,7 @@
 
   * [类型查检](./books/chapter05/07.md)
 
-* React 实例
+* [React 实例](./books/chapter06/00.md)
 
   * [List](./books/chapter06/01.md)
 
