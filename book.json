@@ -1,4 +1,12 @@
 {
   "title": "React 基础学习资料",
-  "description": "React 基础学习资料"
+  "language": "zh-hans",
+  "links": {
+    "gitbook": false,
+    "sharing": {
+      "google": true,
+      "facebook": true,
+      "twitter": true
+    }
+  }
 }
