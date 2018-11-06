@@ -1,5 +1,7 @@
 {
   "title": "React 基础学习资料",
+  "author": "小翼",
+  "root": "./books",
   "language": "zh-hans",
   "links": {
     "gitbook": false,
