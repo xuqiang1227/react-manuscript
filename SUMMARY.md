@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [React 手稿](README.md)
 
 * [基础知识](./books/chapter01/00.md)
 
