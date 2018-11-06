@@ -69,13 +69,21 @@
   * [Form高级](./books/chapter06/03.md)
 
   * [Tooltip](./books/chapter06/04.md)
+
+* [React项目打包部署](./books/chapter07/00.md)
+
+  * [与服务端交互](./books/chapter07/01.md)
+
+  * [打包](./books/chapter07/02.md)
+
+  * [部署](./books/chapter07/03.md)
  
-* [浅谈ES](./books/chapter07/00.md)
+* [浅谈ES](./books/chapter08/00.md)
 
-  * [ES6（ES2015）](./books/chapter07/01.md)
+  * [ES6 (ES2015)](./books/chapter08/01.md)
 
-  * [ES7（ES2016）](./books/chapter07/02.md)
+  * [ES7 (ES2016)](./books/chapter08/02.md)
 
-  * [ES8（ES2017）](./books/chapter07/03.md)
+  * [ES8 (ES2017)](./books/chapter08/03.md)
 
-  * [ES9（ES2018）](./books/chapter07/04.md)
+  * [ES9 (ES2018)](./books/chapter08/04.md)
