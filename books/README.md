@@ -18,5 +18,21 @@
 
   对webpack、node、npm(yarn)等也有一些了解。
 
+## 版权许可
+
+  本文档采用“保持署名—非商用”创意共享4.0许可证。
+
+  只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本文档。
+
+## 问题反馈
+
+  请将您的问题反馈到[issue](https://github.com/kairi1227/kairi1227.github.io/issues/new)
+
+## 作者联系方式
+
+  微信：(注明: React 手稿)
+
+  ![](./images/xiaoyi.png)
+
 
 ![](./images/wechat.png)
