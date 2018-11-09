@@ -88,7 +88,7 @@
 
   * [ES9 (ES2018)](./chapter08/04.md)
 
-* [React Hooks](.chapter09/00.md)
+* [React Hooks](./chapter09/00.md)
 
   * [State Hooks](./chapter09/01.md)
 
