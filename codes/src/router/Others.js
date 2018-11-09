@@ -11,6 +11,7 @@ import EnchanceComponent from '../components/chapter05/hoc/EnhanceComponent';
 import Tooltip from '../components/chapter06/Tooltip';
 import FormIndex from '../components/chapter06/form/Index';
 import FormBase from '../components/chapter06/form/Base';
+import Hooks from '../components/chapter09/Hooks';
 
 export default ({ location }) => { //location history match
 
@@ -52,6 +53,9 @@ export default ({ location }) => { //location history match
       break;
     case '/06-01-04':
       router = <Tooltip />;
+      break;
+    case '/09-01-01':
+      router = <Hooks />;
       break;
     default:
       router = null;

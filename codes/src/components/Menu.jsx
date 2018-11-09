@@ -42,6 +42,9 @@ export default ({ dispatch }) => {
         <Menu.Item key="06-01-03" >Form高级</Menu.Item>
         <Menu.Item key="06-01-04" >Tooltip</Menu.Item>
       </Menu.SubMenu>
+      <Menu.SubMenu title={'React Hooks'} key="sub7">
+        <Menu.Item key="09-01-01">Hooks</Menu.Item>
+      </Menu.SubMenu>
     </Menu>
   );
 }
