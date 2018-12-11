@@ -60,6 +60,8 @@
 
   * [类型查检](./chapter05/07.md)
 
+  * [代码分隔](./chapter05/08.md)
+
 * [React 实例](./chapter06/00.md)
 
   * [List](./chapter06/01.md)
