@@ -43,7 +43,8 @@ export default ({ dispatch }) => {
         <Menu.Item key="06-01-04" >Tooltip</Menu.Item>
       </Menu.SubMenu>
       <Menu.SubMenu title={'React Hooks'} key="sub7">
-        <Menu.Item key="09-01-01">Hooks</Menu.Item>
+        <Menu.Item key="09-01-01">Hooks useState</Menu.Item>
+        <Menu.Item key="09-01-02">Hooks Reducer</Menu.Item>
       </Menu.SubMenu>
     </Menu>
   );

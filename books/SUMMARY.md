@@ -92,5 +92,6 @@
 
 * [React Hooks](./chapter09/00.md)
 
-  * [State Hooks](./chapter09/01.md)
+  * [State Hooks useState](./chapter09/01.md)
 
+  * [State Hooks useReducer](./chapter09/02.md)

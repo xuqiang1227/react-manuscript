@@ -1,3 +1,12 @@
 .code-result {
   margin: 20px 50px;
 }
+
+.example-rooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-rooter > * {
+  margin: 8px 0;
+}
