@@ -9,4 +9,5 @@
 
 .example-rooter > * {
   margin: 8px 0;
+  display: flex;
 }

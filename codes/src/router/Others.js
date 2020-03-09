@@ -13,6 +13,7 @@ import FormIndex from '../components/chapter06/form/Index';
 import FormBase from '../components/chapter06/form/Base';
 import Hooks from '../components/chapter09/Hooks';
 import HooksReducer from '../components/chapter09/Reducer';
+import MultipleState from '../components/chapter09/MultipleStates';
 
 export default ({ location }) => { //location history match
 
@@ -57,6 +58,9 @@ export default ({ location }) => { //location history match
       break;
     case '/09-01-01':
       router = <Hooks />;
+      break;
+    case '/09-01-01-01':
+      router = <MultipleState />;
       break;
     case '/09-01-02':
       router = <HooksReducer />;
